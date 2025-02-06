@@ -1,0 +1,12 @@
+enable
+configure terminal
+
+LAN1: (Biggest NW; Student)
+interface fastethernet 0/0
+ip address 192.168.7.254 255.255.248.0
+no shutdown
+
+LAN2 (2n biggest, public wifi)
+interface fastethernet 1/0
+ip address 192.168.11.254 255.255.252.0
+no shutdown
