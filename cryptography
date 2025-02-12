@@ -1,0 +1,20 @@
+   Asymmetric encryption is a public-key encryption that uses a pair of keys, public and private. The public key is used for encryption and sends the encryption
+ to the public while the private key is held on the decryption side so the only person that can decrypt it is the person with the private key. The keys 
+ are mathematically paired. 
+
+    Symmetric encryption is where two people or devices have the same secret key to encrypt and decrypt data. Both people or devices would need to keep
+the symmetric encryption a secret and would have to get the keys to both people or devices in a sucure matter where they wouldnt be open to threat actors. 
+
+    Hashing is the process that transforms data into a fixed string that hides and keeps data from being easily read. The hash usually is for sensitive data 
+ like passwords. Hash are a one way function meaning you cant retrieve the original input from the hash output.   
+
+    MD5 hasing is acryptographic hash function that produces a 128-bit hash value, typically represented as a 32-character hexadecimal number. No matter the 
+size of the data it always puts a 128 bit hash
+
+    SHA (Secure Hash Algorithm) refers to a family of cryptographic hash functions designed to provide data integrity and security. Unlike MD5, SHA algorithms 
+produce hash values of varying lengths (224, 256, 384, or 512 bits), depending on the specific version used. SHA is widely used in digital signatures, certificates, 
+and various security protocols due to its stronger security compared to MD5.  SHA, with SHA-1, SHA-256, and SHA-512
+
+    bcrypt is a cryptographic hash function specifically designed for securely hashing passwords. It is based on the Blowfish cipher and includes a built-in key
+strengthening mechanism, which makes it much more resistant to brute-force attacks compared to simpler hash functions like MD5 and SHA. bcrypt is widely
+used for securely storing passwords in modern applications. bcrypt uses salt and key stretching.
