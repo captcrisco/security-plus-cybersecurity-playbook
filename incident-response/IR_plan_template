@@ -1,0 +1,16 @@
+An incident Response plan is a list of rules to follow to help guide through a incident 
+
+1- is Preperation Establish the necessary tools, resources, and policies to handle potential incidents. 
+  being proactive is a mian objective in this stage. 
+
+2- Identify  Detect and acknowledge the incident. this stage is for identifying that there is an attack and 
+  report the incident.
+
+3- Contain  this stage is sto contain and mitigate the incident and Limit the spread and impact of the incident.
+
+4- Eradication  Remove the root cause and associated threats. investigate the origin and type of attack then remove any theats.
+    such as malware or currupted files. 
+
+5- Recover Restore systems and services to normal operations. fix any issues with minimal damage. 
+
+6- Lesson learned  Review and improve future response efforts, collected data stored and used if another attack of same origin occurs
