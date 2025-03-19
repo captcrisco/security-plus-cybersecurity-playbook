@@ -1,1 +1,17 @@
+command          description                                                                          Flags
+
+clear            clears the terminal screen
+reset            resets your terminal to use default terminal settings
+who              displays currently logged-in users                                                   -l listing login processes, -m for showing the current terminal, and -q for quick listing of users and their accounts
+w                displays currently logged-in users and their tasks                                   -h suppresses the header row from being displayed in the output, -f toggles the printing of the from field, -o prints old-style output, -i replaces the hostname in the from field with the ip address, -v displays the current command version, --help diplays help text
+whoami           displays your login name                                                             
+id               displays the numbers associated with your user account name and group names          -u prints only the effective use id, -g prints only the effective group, -G prints all group ids associated with the user, -n displays the names instead of numeric id, -r shows the real id instead of the effective one, -zprints the security context of the user, -z printsthe security of context of the user, --help displays the messages for the id command and exits, -z delimit entries with nul characters not whitespace
+date             displays the current time and date                                                   
+cal              displays the calendar of current month                                               -1 displays a single month calendar, -3 displays calendars for the previous, current, and next month, -s displays sunday as the first day of the week, -m displays monday as the first day of the week, -j displays julian dates, -y displays a calendar for the current year
+uname - a        displays system information
+ls               lists files                                                                          -a list all entries, -l long listing format, -h human-readable
+exit             exits out of your current shell                                                      
+pwd              check the full path of your current working directory                                -L instructs pwd to output the $PWD environment variable contents, including symbolic links. if no option is specified pwd assumes -L, -P prints the path to the current directory. all the components are directory names, and symbolic links are resolved.
+cd               navigate between directories in your linux vps                                       
+mkdir            lets  you create one or more multiple directories
 
