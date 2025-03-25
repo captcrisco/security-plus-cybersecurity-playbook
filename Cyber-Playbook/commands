@@ -14,4 +14,6 @@ exit             exits out of your current shell
 pwd              check the full path of your current working directory                                -L instructs pwd to output the $PWD environment variable contents, including symbolic links. if no option is specified pwd assumes -L, -P prints the path to the current directory. all the components are directory names, and symbolic links are resolved.
 cd               navigate between directories in your linux vps                                       
 mkdir            lets  you create one or more multiple directories
+man              displays manual pages
+help             privides information about shell build - in commands                                 help cd to see help for the cd command, help ls to see help for the ls command, ls -- help to see help for the ls command
 
