@@ -16,4 +16,13 @@ cd               navigate between directories in your linux vps
 mkdir            lets  you create one or more multiple directories
 man              displays manual pages
 help             privides information about shell build - in commands                                 help cd to see help for the cd command, help ls to see help for the ls command, ls -- help to see help for the ls command
-
+rm               remove files                                                                         
+pwd              print working directory                                                              shows where you currently located
+cd               change directory
+etc              a directory that contains system wide configuration files
+cp               copy command
+mv               move command
+touch            create a empty file
+gzip             compress files
+tar              compress files
+gunzip           compress files with perameters
