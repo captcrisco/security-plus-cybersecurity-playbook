@@ -26,3 +26,13 @@ touch            create a empty file
 gzip             compress files
 tar              compress files
 gunzip           compress files with perameters
+greb             . [] * ^ &                                                                           used to filter lines in a file or the output of another command that matches a specified pattern.
+cat              short for concatenate                                                                creating and displaying text files as well as combining copies of text files
+less or more     allow users to move around documents using keystrokes
+head tails       heads shows top of files tails bottom                                                -n with a number will show how many lines from top or bottom  nl will show number lines
+echo             repeat output
+sort             rearrange lines of files                                                             -t specifies the field delimiter,  -k specifies field number, -n specifies the sort type
+wc               provieds the number of lines
+cut              extract columns of the text from a file                                              -d specify alternative delimiters, -f specify which fields to display, -c extract columns of text based upon character position
+
+
