@@ -34,5 +34,12 @@ echo             repeat output
 sort             rearrange lines of files                                                             -t specifies the field delimiter,  -k specifies field number, -n specifies the sort type
 wc               provieds the number of lines
 cut              extract columns of the text from a file                                              -d specify alternative delimiters, -f specify which fields to display, -c extract columns of text based upon character position
-
-
+arch             processor type
+lscpu            more info on processor
+free             RAM 
+lspci            To view all of the devices connected by the PCI bus
+/proc/cmdline    Information that was passed to the kernel when it was first started, such as command line parameters and special instructions
+/proc/meminfo    Information about the use of memory by the kernel
+/proc/modules    A list of modules currently loaded into the kernel to add extra functionality
+ps               only shows the current processes running in the current shell
+free             provides a snapshot of the memory being used at that moment
