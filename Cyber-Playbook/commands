@@ -43,3 +43,7 @@ lspci            To view all of the devices connected by the PCI bus
 /proc/modules    A list of modules currently loaded into the kernel to add extra functionality
 ps               only shows the current processes running in the current shell
 free             provides a snapshot of the memory being used at that moment
+ifconfig         used to display network configuration information
+/etc/hosts       This file contains a table of hostnames to IP addresses. It can be used to supplement a DNS server.
+/etc/resolv.conf  This file contains the IP addresses of the name servers the system should consult in any attempt to resolve names to IP addresses
+/etc/nsswitch.conf    This file can be used to modify where hostname lookups occur.
