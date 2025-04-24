@@ -47,3 +47,12 @@ ifconfig         used to display network configuration information
 /etc/hosts       This file contains a table of hostnames to IP addresses. It can be used to supplement a DNS server.
 /etc/resolv.conf  This file contains the IP addresses of the name servers the system should consult in any attempt to resolve names to IP addresses
 /etc/nsswitch.conf    This file can be used to modify where hostname lookups occur.
+su               allows you to run a shell as a different user
+sudo             allows users to execute commands as another user
+who              command displays a list of users who are currently logged into the system, where they are logged in from, and when they logged in.
+id               print user and group information for a specified user
+last             reads the entire login history from the /var/log/wtmp file and displays all logins and reboot records by default. 
+groupadd         command can be executed by the root user to create a new group
+getent           can show you both local and network-based groups
+groupmod         can be used to either change the name of a group with the -n option or change the GID for the group with the -g option.
+groupdel         delete a group
