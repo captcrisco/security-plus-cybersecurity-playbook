@@ -56,3 +56,7 @@ groupadd         command can be executed by the root user to create a new group
 getent           can show you both local and network-based groups
 groupmod         can be used to either change the name of a group with the -n option or change the GID for the group with the -g option.
 groupdel         delete a group
+chown            allows the root user to change the user ownership of files and directories.
+chmod            used to change permissions on files and directories.
+setgid           permission is similar to setuid, but it makes use of the group owner permissions.
+setuid           permission is set on an executable binary file (a program) the binary file is run as the owner of the file, not as the user who executed it.
